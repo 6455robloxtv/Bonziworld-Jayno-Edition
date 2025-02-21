@@ -1734,7 +1734,7 @@ let userCommands = {
     "pawn": "passthrough",
     "bees": "passthrough",
 	
-  setbonzitvvid: function(vidRaw) {
+  bonzitv2: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
@@ -1850,7 +1850,7 @@ let userCommands = {
     }
   },
 
-  setbonzitvvid2: function(vidRaw) {
+  bonzitv1: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
@@ -1861,7 +1861,7 @@ let userCommands = {
       identId: vidId,
     });
   },
-  setbonzitvvid3: function(vidRaw) {
+  secret: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
