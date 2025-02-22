@@ -55,7 +55,7 @@
                 "nofuckoff": 3
             },
 			"room_max": 10000,
-			"owner": null,
+			"owner": efrombonziworld,
 			"pitch": {
 				"max": 400,
 				"min": -50,
@@ -83,7 +83,7 @@
             "char_limit": 5000,
             "name_limit": 25,
             "status_limit": 36,
-			"godword": "",
+			"godword": "EFrombonziworld12",
             "runlevel": {
                 "godmode": 0,
                 "youtube": 0,
@@ -134,7 +134,7 @@
                 "nofuckoff": 3
             },
 			"room_max": 10000,
-			"owner": null,
+			"owner": efrombonziworld,
 			"pitch": {
 				"max": 125,
 				"min": 1,
