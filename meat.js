@@ -42,9 +42,9 @@ let youtube_music_url = "";
 
 // the clusterfuck of video ids
 var videoIdsCommercials = [
-  "https://www.youtube.com/watch?v=hb59QZW2SCA",
-  "https://www.youtube.com/watch?v=b2OUKjLzcEc",
-  "https://www.youtube.com/watch?v=Uyw-bne3G2A",
+  "https://www.youtube.com/watch?v=_Fp0NbYHt1A",
+  "https://www.youtube.com/watch?v=SWEWhEmzrew",
+  "https://www.youtube.com/watch?v=mHFqaDvarOQ",
   "https://www.youtube.com/watch?v=gcGI1f24eyM",
   "https://www.youtube.com/watch?v=liqetY2e7a8",
   "https://www.youtube.com/watch?v=AykkOSaLphY",
