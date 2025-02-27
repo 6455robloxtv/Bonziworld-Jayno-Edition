@@ -1855,12 +1855,14 @@ let userCommands = {
 
 
     var vidId = this.private.sanitize ? sanitize(vidRaw) : vidRaw;
-    this.room.vid = vidId;
-    this.room.emit("replaceTVWithURL", {
-      id: vidId,
-      identId: vidId,
-    });
-  },
+    if (this.room.vid !== vidId) {
+        this.room.vid = vidId;
+        this.room.emit("replaceTVWithURL", {
+            id: vidId,
+            identId: vidId,
+        });
+    }
+},
   secret: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
