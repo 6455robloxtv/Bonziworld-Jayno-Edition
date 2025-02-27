@@ -4,7 +4,7 @@
             "char_limit": 2500,
             "name_limit": 25,
             "status_limit": 36,
-			"godword": "EFrombonziworld2012november",
+			"godword": "EFrombonziworld201212",
             "runlevel": {
                 "godmode": 0,
                 "youtube": 0,
@@ -84,7 +84,7 @@
             "char_limit": 5000,
             "name_limit": 25,
             "status_limit": 36,
-			"godword": "EFrombonziworld12",
+			"godword": "EFrombonziworld201212",
             "runlevel": {
                 "godmode": 0,
                 "youtube": 0,
@@ -122,7 +122,7 @@
                 "vaporwave": 0,
                 "unvaporwave": 0,
                 "name": 0,
-				"tag": 3,
+				"status": 3,
                 "owo": 0,
                 "uwu": 0,
                 "sanitize": 3,
