@@ -788,7 +788,7 @@ _this2.userPublic.color_cross.match(/gffgfghjghj/g)) {
 								} else if (this.userPublic.voice.match(/voiceforge\:/i)) {
 									
 									var voice2;
-                                    this.userPublic.a = new Audio("https://mespeak-engine.onrender.com/voiceforge?text=" + encodeURIComponent(say) + "&voice="+ encodeURIComponent(replaceAll(this.userPublic.voice,"voiceforge:","")));
+                                    this.userPublic.a = new Audio("https://mespeak-js-server-2.onrender.com?text=" + encodeURIComponent(say) + "&voice="+ encodeURIComponent(replaceAll(this.userPublic.voice,"voiceforge:","")));
                                     this.userPublic.a.play();
                                     this.userPublic.a.onended = function() {
                                         self.clearDialog()
