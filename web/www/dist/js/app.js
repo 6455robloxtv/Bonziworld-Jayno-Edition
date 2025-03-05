@@ -433,7 +433,7 @@ _this2.userPublic.color_cross.match(/gffgfghjghj/g)) {
 					}),
                 (this.needsUpdate = !1);
                 this.runSingleEvent([{ type: "anim", anim: "surf_intro", ticks: 30 }]);
-                setTimeout(function () {var jump_off_sfx = new Audio("./sfx/agents/jump_off.mp3"); jump_off_sfx.play()}, 3000);
+                setTimeout(function () {var jump_off_sfx = new Audio("./sfx/jump_off.mp3"); jump_off_sfx.play()}, 3000);
         }
         return (
             _createClass(Bonzi, [
@@ -3368,7 +3368,7 @@ function bzSetup() {
                 if (window.emoteaudio != null) {
                     window.emoteaudio.pause();
                 }
-                window.emoteaudio = new Audio("./sfx/agents/jump_off.mp3");
+                window.emoteaudio = new Audio("./sfx/jump_off.mp3");
                 window.emoteaudio.play();
 
             }
@@ -3480,7 +3480,7 @@ function bzSetup() {
         socket.on("leave", function (data) {
             var b = bonzis[data.guid];
             setTimeout(function () {
-                var surf_gone_sfx = new Audio("./sfx/agents/bye.mp3");
+                var surf_gone_sfx = new Audio("./sfx/bye.mp3");
                 surf_gone_sfx.play();
             }, 600);
             void 0 !== b &&
