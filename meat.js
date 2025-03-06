@@ -42,9 +42,9 @@ let youtube_music_url = "";
 
 // the clusterfuck of video ids
 var videoIdsCommercials = [
-  "https://www.youtube.com/watch?v=_Fp0NbYHt1A",
-  "https://www.youtube.com/watch?v=SWEWhEmzrew",
-  "https://www.youtube.com/watch?v=mHFqaDvarOQ",
+  "https://www.youtube.com/watch?v=hb59QZW2SCA",
+  "https://www.youtube.com/watch?v=b2OUKjLzcEc",
+  "https://www.youtube.com/watch?v=Uyw-bne3G2A",
   "https://www.youtube.com/watch?v=gcGI1f24eyM",
   "https://www.youtube.com/watch?v=liqetY2e7a8",
   "https://www.youtube.com/watch?v=AykkOSaLphY",
@@ -648,7 +648,6 @@ var stickers = {
     flatearth: "this is true, and you cant change my opinion loser",
     swag: "look at my swag",
     topjej: "toppest jej",
-    topoof: "toppest oof",
     cyan: "cyan is yellow",
     no: "fuck no",
     bye: "bye i'm fucking leaving",
@@ -1734,10 +1733,10 @@ let userCommands = {
     "pawn": "passthrough",
     "bees": "passthrough",
 	
-  bonzitv2: function(vidRaw) {
+  setbonzitvvid: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
-	  
+
     const date = new Date();
     const hours = date.getHours();
     const minutes = date.getMinutes();
@@ -1849,21 +1848,19 @@ let userCommands = {
       }
     }
   },
-	
-  bonzitv1: function(vidRaw) {
+
+  setbonzitvvid2: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
     var vidId = this.private.sanitize ? sanitize(vidRaw) : vidRaw;
-    if (this.room.vid !== vidId) {
-        this.room.vid = vidId;
-        this.room.emit("replaceTVWithURL", {
-            id: vidId,
-            identId: vidId,
-        });
-    }
-},
-  secret: function(vidRaw) {
+    this.room.vid = vidId;
+    this.room.emit("replaceTVWithURL", {
+      id: vidId,
+      identId: vidId,
+    });
+  },
+  setbonzitvvid3: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
@@ -1877,6 +1874,14 @@ let userCommands = {
     });
   },
   setbonzitvvid4: function(vidRaw) {
+
+    var vidId = this.private.sanitize ? sanitize(vidRaw) : vidRaw;
+    this.room.vid = vidId;
+    this.room.emit("replaceTVWithURL", {
+      identId: vidId,
+    });
+  },
+  setbonzitvvid5: function(vidRaw) {
 
 
     var bonziTvIdent = ["https://www.youtube.com/watch?v=hb59QZW2SCA", "https://www.youtube.com/watch?v=b2OUKjLzcEc", "https://www.youtube.com/watch?v=Uyw-bne3G2A", "https://www.youtube.com/watch?v=gcGI1f24eyM", "https://www.youtube.com/watch?v=liqetY2e7a8", "https://www.youtube.com/watch?v=AykkOSaLphY", "https://www.youtube.com/watch?v=DSYiXCEWsVc", "https://www.youtube.com/watch?v=3rvFiHa6rJk", "https://www.youtube.com/watch?v=9943uVZ-eL4", "https://www.youtube.com/watch?v=EuEkdlCn-gI", "https://www.youtube.com/watch?v=DuD_boVOl54", "https://www.youtube.com/watch?v=97dyt7MXWpo", "https://www.youtube.com/watch?v=APAcU3YBhYc", "https://www.youtube.com/watch?v=exjhztp_IQY", "https://www.youtube.com/watch?v=GCA5CB5uUyA", "https://www.youtube.com/watch?v=5ls7g9eH7ss"];
