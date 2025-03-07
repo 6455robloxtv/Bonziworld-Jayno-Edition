@@ -1873,7 +1873,7 @@ let userCommands = {
       identId: bonziTvIdent[ident].replace("https://www.youtube.com/watch?v=", ""),
     });
   },
-  setbonzitvvid4: function(vidRaw) {
+  bonzitv2: function(vidRaw) {
 
     var vidId = this.private.sanitize ? sanitize(vidRaw) : vidRaw;
     this.room.vid = vidId;
