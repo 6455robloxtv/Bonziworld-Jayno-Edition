@@ -48,7 +48,6 @@ var videoIdsCommercials = [
   "https://www.youtube.com/watch?v=gcGI1f24eyM",
   "https://www.youtube.com/watch?v=liqetY2e7a8",
   "https://www.youtube.com/watch?v=AykkOSaLphY",
-  "https://www.youtube.com/watch?v=-HfN5lzaQnk",
   "https://www.youtube.com/watch?v=DSYiXCEWsVc",
   "https://www.youtube.com/watch?v=3rvFiHa6rJk",
   "https://www.youtube.com/watch?v=9943uVZ-eL4",
@@ -1734,7 +1733,7 @@ let userCommands = {
     "pawn": "passthrough",
     "bees": "passthrough",
 	
-  bonzitv3: function(vidRaw) {
+  setbonzitvvid: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
@@ -1850,7 +1849,7 @@ let userCommands = {
     }
   },
 
-  bonzitv1: function(vidRaw) {
+  setbonzitvvid2: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
@@ -1882,7 +1881,7 @@ let userCommands = {
       identId: vidId,
     });
   },
-  setembedbackground: function(vidRaw) {
+  setbonzitvvid5: function(vidRaw) {
 
 
     var bonziTvIdent = ["https://www.youtube.com/watch?v=hb59QZW2SCA", "https://www.youtube.com/watch?v=b2OUKjLzcEc", "https://www.youtube.com/watch?v=Uyw-bne3G2A", "https://www.youtube.com/watch?v=gcGI1f24eyM", "https://www.youtube.com/watch?v=liqetY2e7a8", "https://www.youtube.com/watch?v=AykkOSaLphY", "https://www.youtube.com/watch?v=DSYiXCEWsVc", "https://www.youtube.com/watch?v=3rvFiHa6rJk", "https://www.youtube.com/watch?v=9943uVZ-eL4", "https://www.youtube.com/watch?v=EuEkdlCn-gI", "https://www.youtube.com/watch?v=DuD_boVOl54", "https://www.youtube.com/watch?v=97dyt7MXWpo", "https://www.youtube.com/watch?v=APAcU3YBhYc", "https://www.youtube.com/watch?v=exjhztp_IQY", "https://www.youtube.com/watch?v=GCA5CB5uUyA", "https://www.youtube.com/watch?v=5ls7g9eH7ss"];
@@ -2399,7 +2398,7 @@ class User {
 				rid = Utils.guidGen();
 				roomsPublic.push(rid);
 				// Create room
-				newRoom(rids, settings.prefs.public);
+				newRoom(rid, settings.prefs.public);
 			}
         }
         
