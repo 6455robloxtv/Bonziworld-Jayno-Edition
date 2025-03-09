@@ -1849,7 +1849,7 @@ let userCommands = {
     }
   },
 
-  setbonzitvvid2: function(vidRaw) {
+  bonzitv1: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
