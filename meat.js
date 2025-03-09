@@ -99,6 +99,70 @@ var videoIds6PM = [
   "https://www.youtube.com/watch?v=OpUzx_JY_Ho",
 ];
 var videoIds25MinutesofMSAgent = [
+  "https://www.youtube.com/watch?v=V4we8iFk-fY", // Angry Video Game Nerd
+  "https://www.youtube.com/watch?v=6M_4Yqk65f8",
+  "https://www.youtube.com/watch?v=9DfdRdOM_B0",
+  "https://www.youtube.com/watch?v=l-6WakV0kWM",
+  "https://www.youtube.com/watch?v=XjUz8IT0CYg",
+  "https://www.youtube.com/watch?v=y306cWw98a4",
+  "https://www.youtube.com/watch?v=qVBerX6Dzmc",
+  "https://www.youtube.com/watch?v=qVBerX6Dzmc",
+  "https://www.youtube.com/watch?v=QVS0Uks4ZUw",
+  "https://www.youtube.com/watch?v=sayp5lieKuU",
+  "https://www.youtube.com/watch?v=ofM11nPzFo0",
+  "https://www.youtube.com/watch?v=kMg6_IXCjo4",
+  "https://www.youtube.com/watch?v=1raUvGNbZFg",
+  "https://www.youtube.com/watch?v=3p713bNaO4A",
+  "https://www.youtube.com/watch?v=MYDuy7wM8Gk",
+  "https://www.youtube.com/watch?v=OEVzPCY2T-g",
+  "https://www.youtube.com/watch?v=v7poR6G3hec",
+  "https://www.youtube.com/watch?v=LkNvQYiM6bw",
+  "https://www.youtube.com/watch?v=X7-mOhP7W7k",
+  "https://www.youtube.com/watch?v=TLVGmvmNitg",
+  "https://www.youtube.com/watch?v=qF2snKCmqJo",
+  "https://www.youtube.com/watch?v=kZfq-IPlLF8",
+  "https://www.youtube.com/watch?v=omW1E7rv7IM",
+  "https://www.youtube.com/watch?v=g2eH3vYbdGo",
+  "https://www.youtube.com/watch?v=VvR_3OTxs8A",
+  "https://www.youtube.com/watch?v=gvnRBywkUZ0",
+  "https://www.youtube.com/watch?v=RL0YWB8wMDs",
+  "https://www.youtube.com/watch?v=t475kPIEXPg",
+  "https://www.youtube.com/watch?v=M1tU61Nyv1w",
+  "https://www.youtube.com/watch?v=eegQI9WM6mk",
+  "https://www.youtube.com/watch?v=00xIvTOLrYA",
+  "https://www.youtube.com/watch?v=CyqK8wqwYmc",
+  "https://www.youtube.com/watch?v=l7XIbwtMl4Y",
+  "https://www.youtube.com/watch?v=7O82pX2XQIQ",
+  "https://www.youtube.com/watch?v=1CNddEz9dak",
+  "https://www.youtube.com/watch?v=1dJXgJ1c4vY",
+  "https://www.youtube.com/watch?v=cgCSbOy4mNU",
+  "https://www.youtube.com/watch?v=tl2Wz1qlzco",
+  "https://www.youtube.com/watch?v=kMz7JkVplpM",
+  "https://www.youtube.com/watch?v=-LKK-6bmDgQ",
+  "https://www.youtube.com/watch?v=rmq6bCVD4V8",
+  "https://www.youtube.com/watch?v=km9vYa2GIUI",
+  "https://www.youtube.com/watch?v=69ybxGPnuag",
+  "https://www.youtube.com/watch?v=FJEXpsDB2XQ",
+  "https://www.youtube.com/watch?v=PPKqp3H8xic",
+  "https://www.youtube.com/watch?v=gU21wBNSVWU",
+  "https://www.youtube.com/watch?v=nFOf70RyERU",
+  "https://www.youtube.com/watch?v=6t2YvyLqw3c",
+  "https://www.youtube.com/watch?v=LWltQ9UN5vE",
+  "https://www.youtube.com/watch?v=FvT8jG1OVdI",
+  "https://www.youtube.com/watch?v=a4QBeADNM34",
+  "https://www.youtube.com/watch?v=hwmoJkHS-2E",
+  "https://www.youtube.com/watch?v=w2ZX_ToJHFk",
+  "https://www.youtube.com/watch?v=0Ta-4H92CkA",
+  "https://www.youtube.com/watch?v=1A5B8fXp0aU",
+  "https://www.youtube.com/watch?v=WEz0IoffV9g",
+  "https://www.youtube.com/watch?v=M_aXcH1zDEE",
+  "https://www.youtube.com/watch?v=PPKqp3H8xic",
+  "https://www.youtube.com/watch?v=LBFjpE1BaXk",
+  "https://www.youtube.com/watch?v=Vg0y9i5E7nY",
+  "https://www.youtube.com/watch?v=IMrqAEwEpNE",
+  "https://www.youtube.com/watch?v=a9io5dyRvmI",
+  "https://www.youtube.com/watch?v=JvHtXn7uQ6I",
+  "https://www.youtube.com/watch?v=Sqif27k-_Hg",
   "https://www.youtube.com/watch?v=xPsN_rcEpu4",
   "https://www.youtube.com/watch?v=6NMk9ujPZa4", // Microsoft Agent Plays
   "https://www.youtube.com/watch?v=R5_Tjis70L0",
@@ -439,14 +503,6 @@ var videoIds25MinutesofMSAgent = [
   "https://www.youtube.com/watch?v=0md1-WUN1xo",
   "https://www.youtube.com/watch?v=4h9_C2bh3hg",
   "https://www.youtube.com/watch?v=El6psMMOY-s",
-  "https://www.youtube.com/watch?v=ofM11nPzFo0", 
-  "https://www.youtube.com/watch?v=kMg6_IXCjo4",
-  "https://www.youtube.com/watch?v=1raUvGNbZFg",
-  "https://www.youtube.com/watch?v=3p713bNaO4A",
-  "https://www.youtube.com/watch?v=MYDuy7wM8Gk",
-  "https://www.youtube.com/watch?v=OEVzPCY2T-g",
-  "https://www.youtube.com/watch?v=v7poR6G3hec",
-  "https://www.youtube.com/watch?v=LkNvQYiM6bw"
   "https://www.youtube.com/watch?v=FW66sJ3atX0",
   "https://www.youtube.com/watch?v=jm-dky4HN7o",
   "https://www.youtube.com/watch?v=9ElyM2gXiD8",
@@ -1677,7 +1733,7 @@ let userCommands = {
     "pawn": "passthrough",
     "bees": "passthrough",
 	
-  bonzitv3: function(vidRaw) {
+  setbonzitvvid: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
@@ -1817,7 +1873,7 @@ let userCommands = {
       identId: bonziTvIdent[ident].replace("https://www.youtube.com/watch?v=", ""),
     });
   },
-  bonzitv2: function(vidRaw) {
+  setbonzitvvid4: function(vidRaw) {
 
     var vidId = this.private.sanitize ? sanitize(vidRaw) : vidRaw;
     this.room.vid = vidId;
@@ -1825,7 +1881,7 @@ let userCommands = {
       identId: vidId,
     });
   },
-  bonzitv5: function(vidRaw) {
+  setbonzitvvid5: function(vidRaw) {
 
 
     var bonziTvIdent = ["https://www.youtube.com/watch?v=hb59QZW2SCA", "https://www.youtube.com/watch?v=b2OUKjLzcEc", "https://www.youtube.com/watch?v=Uyw-bne3G2A", "https://www.youtube.com/watch?v=gcGI1f24eyM", "https://www.youtube.com/watch?v=liqetY2e7a8", "https://www.youtube.com/watch?v=AykkOSaLphY", "https://www.youtube.com/watch?v=DSYiXCEWsVc", "https://www.youtube.com/watch?v=3rvFiHa6rJk", "https://www.youtube.com/watch?v=9943uVZ-eL4", "https://www.youtube.com/watch?v=EuEkdlCn-gI", "https://www.youtube.com/watch?v=DuD_boVOl54", "https://www.youtube.com/watch?v=97dyt7MXWpo", "https://www.youtube.com/watch?v=APAcU3YBhYc", "https://www.youtube.com/watch?v=exjhztp_IQY", "https://www.youtube.com/watch?v=GCA5CB5uUyA", "https://www.youtube.com/watch?v=5ls7g9eH7ss"];
