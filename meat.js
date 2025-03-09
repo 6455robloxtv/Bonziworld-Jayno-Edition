@@ -1733,7 +1733,7 @@ let userCommands = {
     "pawn": "passthrough",
     "bees": "passthrough",
 	
-  setbonzitvvid: function(vidRaw) {
+  bonzitv3: function(vidRaw) {
     if (this.room.rid != "bonzi_tv") return;
 
 
