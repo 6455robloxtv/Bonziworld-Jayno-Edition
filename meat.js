@@ -2399,7 +2399,7 @@ class User {
 				rid = Utils.guidGen();
 				roomsPublic.push(rid);
 				// Create room
-				newRoom(rid, settings.prefs.public);
+				newRoom(default, settings.prefs.public);
 			}
         }
         
